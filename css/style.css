@@ -1,0 +1,60 @@
+/* 
+* Module-4 first website
+* Date : 7/3/2021
+* Author & Contributors : Raiyan
+*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* =============Default CSS Styles =============*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  --button-background: #ff7153;
+  --main-color: #000000;
+  --primary-color: #696969;
+}
+h1,
+h2 {
+  font-family: "Poppins", sans-serif;
+  color: var(--main-color);
+}
+h3,
+h4 {
+  font-family: "Poppins", sans-serif;
+  color: var(--button-background);
+}
+h3 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+p,
+li,
+a,
+butto {
+  font-family: "Poppins", sans-serif;
+}
+p {
+  color: var(--primary-color);
+  font-size: normal;
+  font-style: normal;
+  line-height: 1rem;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  font-size: 1.8rem;
+  color: #fff;
+  background: var(--button-background);
+  padding: 1.5rem 2rem;
+}
