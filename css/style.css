@@ -1,5 +1,5 @@
 /* 
-* Module-4 first website
+* Name : first website with Programming hero
 * Date : 7/3/2021
 * Author & Contributors : Raiyan
 */
@@ -24,6 +24,7 @@ h1,
 h2 {
   font-family: "Poppins", sans-serif;
   color: var(--main-color);
+  font-weight: 600;
 }
 h3,
 h4 {
@@ -57,4 +58,15 @@ button {
   color: #fff;
   background: var(--button-background);
   padding: 1.5rem 2rem;
+}
+/*===================== Header Section CSS Styles Starts======================== */
+header h1 {
+  font-size: 5rem;
+}
+header h2 .higlight-title {
+  color: #ffa500;
+  font-size: 4rem;
+}
+header h2 {
+  font-size: 4rem;
 }
